@@ -9,6 +9,7 @@ import ImagePro from "../profile/ImagePro";
 import Img from "../assets/pro-photo.jpg";
 import Alert from "react-bootstrap/Alert";
 import PropTypes from "prop-types";
+// import userimg from "../assets/user-photo.jpg";
 
 function handleName(name) {
   return (
@@ -64,7 +65,7 @@ const profile = (props) => {
     fullName: "user",
     bio: "No bio",
     profession: " No profession",
-    src: "../assets/user-photo.jpg",
+   
   };
 
   return (
@@ -72,7 +73,7 @@ const profile = (props) => {
 
       <div style={overAllStyle}>
         <div>
-          <ImagePro src={Img}></ImagePro>
+          <ImagePro src = {Img} alt='profilePhoto'></ImagePro>
         </div>
 
         <div style={styleTexts}>

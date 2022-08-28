@@ -1,6 +1,7 @@
 import "./App.css";
 import Profile from "../src/profile/Profile";
 
+
 function App() {
 
   const styleApp = {display:"flex",flexDirection:"column"}
